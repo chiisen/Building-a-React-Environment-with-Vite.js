@@ -82,4 +82,11 @@ import './locales/i18n'
 import { useTranslation } from 'react-i18next';
 import { i18nKeys } from '../locales/i18nKeys'
 ```
-
+4. 取得翻譯函式
+```bash
+const { t } = useTranslation();
+```
+5. 指定翻譯 key 值
+```bash
+{t(i18nKeys.HomePage_Count_Text)} {count}
+```
